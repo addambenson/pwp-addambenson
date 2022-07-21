@@ -1,15 +1,18 @@
 body {
     background: lightgray;
-    font-family: Times New Roman, monospace;
+    font-family: Arial, monospace, sans serif;
     font-size: 16pt;
 }
 
-h1 {color: mediumpurple;
+h1 {
+    color: mediumpurple;
+    text-align: center;
 }
 
 h2 {
     text-decoration-line: underline;
     text-decoration-thickness: 3px;
+    text-align: center;
 }
 
 h3 {
