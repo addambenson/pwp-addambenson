@@ -24,8 +24,9 @@ const mailgunClient = mailgun.client({username: "api", key: process.env.MAILGUN_
 const validation = [
   check("name", "A valid name is required").not().isEmpty().trim().escape(),
   check("email", "please provide a valid email").isEmail(),
-  check("subject").optional().trim().escape(),
-  check("message", "A message must be shorter than 2000 characters").trim().escape().isLength({min:1, max:2000})
+  check("company").optional().trim().escape(),
+  check("orderNumber").optional().trim().escape(),
+  check("message", "A message must be shorter than 1000 characters").trim().escape().isLength({min:1, max:2000})
 ]
 
 const handleGetRequest = ((request: Request, response: Response)=> {

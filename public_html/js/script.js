@@ -7,9 +7,6 @@ $(document).ready(function () {
     // input validation rules
     // each rule starts with element name attribute
     rules: {
-      name: {
-        required: true
-      },
       email: {
         email: true,
         required: true
