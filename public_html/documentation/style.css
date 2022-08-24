@@ -21,12 +21,13 @@ header {
 }
 
 .background {
-    transform: translateZ(-15px) scale(3);
+    transform: translateZ(-100px) scale(4);
 }
 
 .foreground {
     transform: translateZ(-5px) scale(1.5);
 }
+
 
 .foreground,
 .background {
@@ -41,23 +42,17 @@ h1 {
     font-size: 8rem;
 }
 
-h3 {
+h2 {
     font-size: 6rem;
 }
 
 h3{
     font-size: 3rem;
-    color: rebeccapurple;
 }
 
-h1, h2, h4{
+h1, h2, h3, h4, h5{
     color: rebeccapurple;
     text-align: center;
-}
-
-h5 {
-    color: rebeccapurple;
-    text-align:left;
 }
 
 hr {
@@ -70,15 +65,19 @@ hr {
     background-color: lightblue;
 }
 
-.collaborate{
-    background-color: lightblue;
-}
-
 .form-wrapper {
     background: lightblue;
     color: rebeccapurple;
+    margin-left: 50px;
 }
 
+input, label, textarea {
+    padding: 5px;
+}
+
+label {
+    padding: 5px;
+}
 
 footer {
     background-color: black;
